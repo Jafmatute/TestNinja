@@ -6,9 +6,8 @@
 
         public bool CanBeCancelledBy(User user)
         {
-            return (user.IsAdmin || MadeBy == user);
+            return user.IsAdmin || MadeBy == user;
         }
-        
     }
 
     public class User

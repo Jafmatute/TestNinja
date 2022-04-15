@@ -21,7 +21,7 @@ namespace TestNinja.Mocking
             }
             catch (WebException)
             {
-                return false; 
+                return false;
             }
         }
     }

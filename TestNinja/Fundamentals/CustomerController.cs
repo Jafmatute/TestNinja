@@ -6,14 +6,20 @@
         {
             if (id == 0)
                 return new NotFound();
-            
+
             return new Ok();
-        }        
+        }
     }
-    
-    public class ActionResult { }
-    
-    public class NotFound : ActionResult { }
- 
-    public class Ok : ActionResult { }
+
+    public class ActionResult
+    {
+    }
+
+    public class NotFound : ActionResult
+    {
+    }
+
+    public class Ok : ActionResult
+    {
+    }
 }
