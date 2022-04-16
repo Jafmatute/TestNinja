@@ -7,16 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4"/>
-        <PackageReference Include="MSTest.TestAdapter" Version="2.2.3"/>
-        <PackageReference Include="MSTest.TestFramework" Version="2.2.3"/>
-        <PackageReference Include="coverlet.collector" Version="3.0.2"/>
-        <PackageReference Include="NUnit" Version="3.8.1"/>
-        <PackageReference Include="NUnit3TestAdapter" Version="4.0.0"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+        <PackageReference Include="MSTest.TestAdapter" Version="2.2.3" />
+        <PackageReference Include="MSTest.TestFramework" Version="2.2.3" />
+        <PackageReference Include="coverlet.collector" Version="3.0.2" />
+        <PackageReference Include="NUnit" Version="3.8.1" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\TestNinja\TestNinja.csproj"/>
+        <ProjectReference Include="..\TestNinja\TestNinja.csproj" />
     </ItemGroup>
 
 </Project>
