@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using TestNinja.Fundamentals;
 
 namespace TestNinja.UnitTests
@@ -30,6 +31,16 @@ namespace TestNinja.UnitTests
             // _logger.Log(error);
             Assert.That(() => _logger.Log(error), Throws.ArgumentNullException);
             //Assert.That(()=> _logger.Log(error), Throws.Exception.TypeOf<DivideByZeroException>());
+        }
+
+        [Test]
+        public void Log_ValidError_RaiseErrorLoggedEvent()
+        {
+            var id = Guid.Empty;
+
+            _logger.ErrorLogged += (sender, args) => { id = args; };
+            _logger.Log("a");
+            Assert.That(id, Is.Not.EqualTo(Guid.Empty));
         }
     }
 }
