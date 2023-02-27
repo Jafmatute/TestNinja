@@ -1,21 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/Environment/Hierarchy/EntityFrameworkOptions/IsAlreadyNotifiedAboutEntityFramework/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0a908b6c_002Da8cf_002D455e_002Db9ec_002Dac5b010d63b1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReservationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=169b950b_002D922c_002D4614_002Da82b_002Db8a38aea83fe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Add_WhenCalled_ReturnTheSumOfArguments" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.ReservationTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.MathTests.Add_WhenCalled_ReturnTheSumOfArguments&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.MathTests.Max_FirstArgumentIsGreater_ReturnTheFirstArgument&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.MathTests.Max_SecondArgumentIsGreater_ReturnTheSecoundArgument&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.MathTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.HtmlFormatterTests.FormatAsBold_WhenCalled_ShouldEncloseTheStringWithStrongElement&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.CustomerControllerTests.GetCustomer_IdIsZero_ReturnNotFound&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.CustomerControllerTests.GetCustomer_IdIsZero_ReturnNotOk&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.ErrorLoggerTests.Log_WhenCalled_SetTheLastErrorProperty&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.ErrorLoggerTests.Log_InvalidError_ThrowArgumentNullException&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.ErrorLoggerTests.Log_ValidError_RaiseErrorLoggedEvent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.FizzBuzzTests.GetOutput_InputIsDivisibleBy3And5_ReturnFizzBuzz&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.FizzBuzzTests.GetOutput_InputIsNotDivisibleBy3Or5_ReturnTheSameNumber&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2980e0d4_002Da41f_002D4627_002Dbb14_002Dd0dbea35b0c0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;TestNinja.UnitTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\josue\source\repos\TestNinja\TestNinja.UnitTests" Presentation="&amp;lt;TestNinja.UnitTests&amp;gt;" /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
+	
 	</wpf:ResourceDictionary>

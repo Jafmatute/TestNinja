@@ -42,7 +42,7 @@ namespace TestNinja.UnitTests
 
             //general
             //Assert.That(result, Is.Not.Empty);
-
+            //specific
             //Assert.That(result.Count(), Is.EqualTo(3));
 
             // Assert.That(result,Does.Contain(2));

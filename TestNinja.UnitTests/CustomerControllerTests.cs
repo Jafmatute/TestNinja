@@ -18,7 +18,7 @@ namespace TestNinja.UnitTests
         }
 
         [Test]
-        public void GetCustomer_IdIsZero_ReturnNotOk()
+        public void GetCustomer_IdIsZero_ReturnOk()
         {
             var controller = new CustomerController();
             var result = controller.GetCustomer(1);
