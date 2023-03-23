@@ -4,7 +4,7 @@ namespace TestNinja.Mocking
 {
     public class EmployeeController
     {
-        private readonly EmployeeContext _db;
+        private EmployeeContext _db;
 
         public EmployeeController()
         {
@@ -25,14 +25,10 @@ namespace TestNinja.Mocking
         }
     }
 
-    public class ActionResult
-    {
-    }
-
-    public class RedirectResult : ActionResult
-    {
-    }
-
+    public class ActionResult { }
+ 
+    public class RedirectResult : ActionResult { }
+    
     public class EmployeeContext
     {
         public DbSet<Employee> Employees { get; set; }
