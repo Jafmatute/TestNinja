@@ -9,10 +9,9 @@ namespace TestNinja.Mocking
 {
     public class VideoService
     {
-        private readonly IVideoRepository _repository;
         //public IFileReader FileReader { get; set; }
-
         private readonly IFileReader _fileReader;
+        private readonly IVideoRepository _repository;
         
         public VideoService(IFileReader fileReader = null, IVideoRepository repository =null)
         {
@@ -29,6 +28,8 @@ namespace TestNinja.Mocking
             return video.Title;
         }
 
+        //[] => ""
+        //[{},{},{}] => "1,2,3"
         public string GetUnprocessedVideosAsCsv()
         {
             var videoIds = new List<int>();
