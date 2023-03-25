@@ -14,7 +14,6 @@ namespace TestNinja.Mocking
 
         public bool DownloadInstaller(string customerName, string installerName)
         {
-            var client = new WebClient();
             try
             {
                 _fileDownloader.DownloadFile(
