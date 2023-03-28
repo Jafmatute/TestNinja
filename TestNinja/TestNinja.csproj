@@ -65,6 +65,7 @@
         <Compile Include="Fundamentals\Stack.cs" />
         <Compile Include="Mocking\BookingHelper.cs" />
         <Compile Include="Mocking\BookingRepository.cs" />
+        <Compile Include="Mocking\EmailSender.cs" />
         <Compile Include="Mocking\EmployeeController.cs" />
         <Compile Include="Mocking\EmployeeStorage.cs" />
         <Compile Include="Mocking\FileDownloader.cs" />
@@ -74,6 +75,7 @@
         <Compile Include="Mocking\OrderService.cs" />
         <Compile Include="Mocking\Product.cs" />
         <Compile Include="Mocking\Program.cs" />
+        <Compile Include="Mocking\StatementGenerator.cs" />
         <Compile Include="Mocking\VideoRepository.cs" />
         <Compile Include="Mocking\VideoService.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
