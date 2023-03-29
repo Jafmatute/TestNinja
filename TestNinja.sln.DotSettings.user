@@ -40,6 +40,7 @@
     &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_StatementFileNameIsNull_ShouldNotEmailTheStatement&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_StatementFileNameIsWhiteSpace_ShouldNotEmailTheStatement&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_StatementFileNameIsEmptyString_ShouldNotEmailTheStatement&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::827EC87B-90E2-467A-B444-71B550A8E6A2::net5.0::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
